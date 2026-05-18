@@ -80,7 +80,7 @@ const App = () => {
             Recent Notes
           </h1>
 
-          <div className="flex flex-wrap items-start justify-center lg:justify-start gap-5 mt-6 overflow-auto max-h-[500px]">
+          <div className="flex flex-wrap items-start justify-center lg:justify-start gap-5 mt-6 overflow-auto max-h-125">
             
             {task.length > 0 ? (
               task.map((element, index) => {
